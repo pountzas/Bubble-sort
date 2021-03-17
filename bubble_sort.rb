@@ -10,16 +10,17 @@ def bubble_sort(arr)
   print arr
 end
 
-# bubble_sort([4, 3, 78, 2, 0, 2])
-
-# bubble_sort_by
 def bubble_sort_by(arr)
-  (0..arr.length - 2).each do |i|
-    comparison = yield arr[i], arr[i + 1]
-    arr[i], arr[i + 1] = arr[i + 1], arr[i] if comparison.positive?
+  sorted = false
+  until sorted
+    sorted = true
+    (0..arr.length - 2).each do |i|
+      comparison = yield arr[i], arr[i + 1]
+      if comparison.positive?
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        sorted = false
+      end
+    end
   end
   p arr
-end
-bubble_sort_by(%w[hi hello hey]) do |left, right|
-  left.length - right.length
 end
