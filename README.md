@@ -21,7 +21,8 @@ Create a new folder/directory for the project
 
 - open your terminal on your OS
 - go to the desired folder/directory that you want to have the project in
-- git clone https://github.com/pountzas/Project-4-HTML-CSS-Electronics-Shop-.git  TO CHANGE
+- git clone https://github.com/pountzas/Bubble-sort.git
+- cd Bubble-sort.git
 
 
 👤 **Nikos Pountzas**
@@ -29,6 +30,12 @@ Create a new folder/directory for the project
 - GitHub: [@pountzas](https://github.com/pountzas)
 - Twitter: [@pountzas20](https://twitter.com/pountzas20)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nikos-pountzas-173ba4a8/)
+
+👤 **Francis Uloko**
+
+- GitHub: [@francisuloko](https://github.com/francisuloko)
+- Twitter: [@francisuloko](https://twitter.com/francisuloko)
+- LinkedIn: [Francis Uloko](https://www.linkedin.com/in/francisuloko/)
 
 ## 🤝 Contributing
 
