@@ -1,4 +1,3 @@
-
 def bubble_sort(arr)
   arr_sort = arr.sort
   while arr != arr_sort
